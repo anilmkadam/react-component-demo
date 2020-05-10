@@ -37,6 +37,9 @@ const App = () => {
         },
         {
             avatar: faker.image.avatar(),
+        },
+        {
+
         }
     ];
     var CommentDetailList = commentDetails.map((comment, i) => {
