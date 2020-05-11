@@ -44,11 +44,13 @@ const App = () => {
         }
     ];
     var CommentDetailList = commentDetails.map((comment, i) => {
-                                return <CommentDetail comment={comment} key={i}/>
+                                return <ApprovalCard> 
+                                    <CommentDetail comment={comment} key={i}/>
+                                </ApprovalCard> 
                             });
     return (
         <div className="ui container comments">
-            <ApprovalCard />
+            
             {
                 CommentDetailList
             }            
