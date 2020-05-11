@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import CommentDetail from './CommentDetail';
 import faker from 'faker';
+import ApprovalCard from './ApprovalCard';
 
 const App = () => {
     let commentDetails = [
@@ -47,6 +48,7 @@ const App = () => {
                             });
     return (
         <div className="ui container comments">
+            <ApprovalCard />
             {
                 CommentDetailList
             }            
