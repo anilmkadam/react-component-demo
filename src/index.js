@@ -50,7 +50,7 @@ const App = () => {
                             });
     return (
         <div className="ui container comments">
-            
+            <ApprovalCard> Are you sure you want to this? </ApprovalCard>
             {
                 CommentDetailList
             }            
