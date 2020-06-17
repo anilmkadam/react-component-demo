@@ -11,7 +11,7 @@ Your app is ready to be deployed!
 
 ```This project is more about Function Based component.``` :dart:
 
-### `Third party library And packages`
+### `Third party library And packages` :man_technologist:
 
 The external packages and library used for the projects.
 - Semantic-ui <br/>
